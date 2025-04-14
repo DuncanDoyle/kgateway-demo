@@ -1,0 +1,16 @@
+apiVersion: gateway.kgateway.dev/v1alpha1
+kind: Backend
+metadata:
+  name: lambda
+  namespace: kgateway-system
+spec:
+  type: AWS
+  aws:
+    region: eu-central-1
+    accountId: "931713665590"
+    auth:
+      type: Secret
+      secretRef:
+        name: aws-creds
+    lambda:
+      functionName: greeting-function-QuarkusLambdaDdoyle-2CIg7Nh54XUQ
