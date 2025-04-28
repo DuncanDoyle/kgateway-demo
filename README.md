@@ -31,7 +31,7 @@ Run the `install/setup.sh` script to setup the environment:
 __K8S Gateway API:__
 
 ```
-./curl-request-g8s-gw-api.sh
+./curl-request-k8s-gw-api.sh
 ```
 
 or
