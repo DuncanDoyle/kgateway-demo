@@ -1,0 +1,11 @@
+apiVersion: gateway.kgateway.dev/v1alpha1
+kind: Backend
+metadata:
+  name: tcpbin-com
+  namespace: default
+spec:
+  type: Static
+  static:
+    hosts:
+      - host: tcpbin.com
+        port: 4242

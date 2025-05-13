@@ -1,7 +1,8 @@
 
 #!/bin/sh
 
-export KGATEWAY_VERSION="v2.0.0"
+# export KGATEWAY_VERSION="v2.0.0"
+export KGATEWAY_VERSION="v2.1.0-main"
 export KGATEWAY_HELM_VALUES_FILE="kgateway-helm-values.yaml"
 
 # if [ -z "$GLOO_GATEWAY_LICENSE_KEY" ]
