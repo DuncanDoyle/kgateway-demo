@@ -5,8 +5,8 @@
 Install KGateway:
 ```
 cd install
-./create-tls-cert-secret-api-example-com.sh
 ./install-kgateway-with-helm.sh
+./create-tls-cert-secret-api-example-com.sh
 ```
 
 > NOTE
